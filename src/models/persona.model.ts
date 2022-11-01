@@ -36,12 +36,13 @@ export class Persona extends Entity {
 
   @property({
     type: 'string',
-    required: true,
+    required: false,
   })
   Clave: string;
 
   @property({
     type: 'string',
+    required: false,
   })
   pedidoId?: string;
 

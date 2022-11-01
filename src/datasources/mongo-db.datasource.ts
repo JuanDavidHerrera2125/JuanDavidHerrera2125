@@ -4,7 +4,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'mongoDB',
   connector: 'mongodb',
-  url: 'mongodb+srv://<username>:progweb2022@cluster1.vegjtwv.mongodb.net/pedidosDB?retryWrites=true&w=majority',
+  url: 'mongodb://prog_web:progweb2022@ac-bu6vksr-shard-00-00.g6jdlc9.mongodb.net:27017,ac-bu6vksr-shard-00-01.g6jdlc9.mongodb.net:27017,ac-bu6vksr-shard-00-02.g6jdlc9.mongodb.net:27017/test?replicaSet=atlas-r9ob70-shard-0&ssl=true&authSource=admin',
   host: '',
   port: 0,
   user: '',
